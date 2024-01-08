@@ -1,0 +1,14 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;  
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 150px);
+}
+
+.header {
+  grid-column-start: 1;
+  grig-column-end: 5;
+}
